@@ -1,0 +1,49 @@
+title = "@schkwve's Lair"
+baseURL = 'https://schkwve.github.io/'
+theme = 'archie'
+copyright = "© Jozef Nagy"
+languageCode = 'en-us'
+paginate=3
+
+
+# Code highlighting
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+	mode = "auto"
+	useCDN = false
+	subtitle = ""
+	mathjax = true
+	katex = true
+
+# Main menu items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About Me"
+url = "/about"
+weight = 4
+
+# Socials
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/schkwve"
